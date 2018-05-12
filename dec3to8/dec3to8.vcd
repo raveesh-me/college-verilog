@@ -1,0 +1,68 @@
+$date
+	Fri May 11 19:19:58 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module dec3to8_tb $end
+$var wire 8 ! o [7:0] $end
+$var reg 1 " enb_ $end
+$var reg 3 # sel [2:0] $end
+$scope module idecoder $end
+$var wire 1 " enb_ $end
+$var wire 3 $ sel [2:0] $end
+$var reg 8 % o [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11111111 %
+b0 $
+b0 #
+1"
+b11111111 !
+$end
+#100
+b11111110 !
+b11111110 %
+0"
+#200
+b11111101 !
+b11111101 %
+b1 #
+b1 $
+#300
+b11111011 !
+b11111011 %
+b10 #
+b10 $
+#400
+b11110111 !
+b11110111 %
+b11 #
+b11 $
+#500
+b11101111 !
+b11101111 %
+b100 #
+b100 $
+#600
+b11011111 !
+b11011111 %
+b101 #
+b101 $
+#700
+b10111111 !
+b10111111 %
+b110 #
+b110 $
+#800
+b1111111 !
+b1111111 %
+b111 #
+b111 $
+#900
